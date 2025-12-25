@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini project</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial;
+        }
+        header,
+        footer {
+            background-color: #222;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            color: white;
+            padding: 10px;
+        }
+        .hero {
+            background-color: #ddd;
+            padding: 50px;
+            text-align: center;
+        }
+        .cards {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            padding: 20px;
+        }
+        .card {
+            background: white;
+            padding: 20px;
+            flex: 1 1 100%;
+        }
+        @media (min-width: 600px) {
+            .card {
+                flex: 1 1 45%;
+            }
+        }
+        @media (min-width: 992px) {
+            .card {
+                flex: 1 1 30%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>Header</header>
+    <nav>Navigation Bar</nav>
+    <div class="hero">Hero Banner</div>
+</body>
+</html>
